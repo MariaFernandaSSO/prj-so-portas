@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "gitconfig": "git config --local user.name \"Maria Fernanda Oliveira\" && git config --local user.email \"mariafernanda.oliveira281@gmail.com\""
   },
   "private": true,
   "dependencies": {
