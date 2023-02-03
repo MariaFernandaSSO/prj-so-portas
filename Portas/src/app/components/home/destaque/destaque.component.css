@@ -2,14 +2,60 @@
   margin: 6rem 0;
 }
 
-h1 {
+span {
+  font-size: 7rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 p {
+  padding: 0;
+  margin: 0;
   font-size: 2rem;
   font-weight: 500;
   line-height: 3rem;
 }
 
+button.btn.btn-lg{
+  color: rgb(209, 209, 209);
+  font-size: 2rem;
+  font-weight: 500;
+  border-radius: 0.8rem;
+  padding: 1rem 2.4rem;
+}
+
+button.btn.btn-lg#baixar{
+  background-color: #496F7F;
+  padding: 1rem 5rem;
+}
+
+button.btn.btn-lg#baixar:hover{
+  background-color: #1d2224;
+  transition: all .5s;
+}
+
+button.btn.btn-lg#inst{
+  color: gray;
+  border: 3px solid rgb(78, 78, 78);
+}
+
+button.btn.btn-lg#inst:hover{
+  background-color: white;
+  color: #1d2224;
+  transition: all .5s;
+}
+
+div.d-flex.justify-content-center{
+  margin: 16rem 0;
+}
+
+.triangulo-invertido {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid #CDDEE5;
+}

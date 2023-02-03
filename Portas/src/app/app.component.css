@@ -4,13 +4,12 @@
 }
 
 .color-gradient {
-  border-radius: 0 0 38% 38%;
-  height: 52.7rem;
+  border-radius: 0 0 39% 38%;
+  height: 64rem;
   background: linear-gradient(180deg, #274D5F 0%, rgba(66, 112, 132, 0.76) 40.39%, rgba(75, 136, 162, 0.28) 80.79%);
 }
 
 div.container-fluid.py-5 {
   padding: 0 6rem;
 }
-
 

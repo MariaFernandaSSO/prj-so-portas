@@ -9,16 +9,25 @@
   font-weight: 600;
   font-size: 3.6rem;
 }
+li.nav-item{
+  padding-left: 3.2rem;
+}
 
 ul.navbar-nav > li.nav-item > .nav-link {
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
-  padding-left: 3.2rem;
+
 }
 
 a.nav-link:hover, a.navbar-brand:hover {
   color: #264757;
+  transition: all .5s;
+
+}
+
+a.nav-link:hover{
+  border-bottom: solid 4px rgb(255, 255, 255);
 }
 
 li.nav-item > .nav-link.active{
