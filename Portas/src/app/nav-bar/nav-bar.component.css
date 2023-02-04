@@ -34,4 +34,7 @@ li.nav-item > .nav-link.active{
   color:#FFF9FB !important;
 }
 
+div.container-fluid.py-5 {
+  padding: 0 6rem;
+}
 

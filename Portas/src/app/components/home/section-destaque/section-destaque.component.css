@@ -1,0 +1,52 @@
+.container{
+  max-width: 1200px;
+}
+
+h1 {
+  color: #496F7F;
+  font-style: normal;
+  font-weight: 500;
+  margin: 4rem 0;
+}
+
+p {
+  text-align: justify;
+  color: #252627;
+}
+
+.btn{
+  border: 2px solid #fff;
+  border-radius: 1.5rem;
+  padding: 0.5rem 2rem;
+  width: 180px;
+  font-size: small;
+}
+
+.btn-blue{
+  background-color: var(--blue);
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.btn-blue:hover{
+  color: var(--blue);
+  background: #fff;
+  border-color: var(--blue);
+}
+
+.lh-lg{
+  line-height: 1.7!important;
+}
+
+
+.bg-blue{
+  background-color: var(--blue)!important;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+section.pt-5.bg-blue > p {
+  color: white;
+}
